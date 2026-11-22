@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://bomper2006.github.io/BOMPER-BREINKRAG/sitemap.xml
