@@ -24,3 +24,27 @@
 /* Math dashboard inside home hero */
 .hero-photo img{height:auto;aspect-ratio:1059/158;object-fit:contain;background:#090e20}.visual-panel{min-height:265px;display:grid;grid-template-columns:1.05fr .95fr;align-items:center;gap:12px;padding:30px;background:linear-gradient(130deg,#081331,#152958)}.visual-panel img{width:145px;height:145px;aspect-ratio:1;object-fit:cover;border:3px solid var(--orange);border-radius:50%;box-shadow:0 0 0 11px #ff8a1812}.visual-formula{font-family:Georgia,serif;color:#ffaf4d;font-size:clamp(29px,4vw,47px);font-style:italic;text-align:center}.visual-note{font-size:12px;color:#bbc9de;font-family:system-ui;display:block;font-weight:750;letter-spacing:.1em;font-style:normal;margin-top:17px}
 @media(max-width:650px){.hero-photo img{height:auto;aspect-ratio:1059/158;object-fit:contain}.visual-panel{min-height:205px;padding:20px}.visual-panel img{width:110px;height:110px}.visual-formula{font-size:29px}}
+
+/* 2026-11-23 • Guided grade navigation */
+.grade-launch{background:#eef3fa;border-block:1px solid #dde6f2;padding-block:67px 75px}
+.grade-launch-heading{display:flex;align-items:end;justify-content:space-between;gap:30px;margin-bottom:25px}
+.grade-launch-heading h2{margin:10px 0 10px;font-size:clamp(31px,3.35vw,46px);line-height:1.13;color:#0b1b36;letter-spacing:-.035em}
+.grade-launch-heading p{max-width:660px;color:#53657e;font-size:15px;line-height:1.65;margin:0}
+.grade-launch-heading .text-link{white-space:nowrap;margin-bottom:6px}
+.grade-launch-grid{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:13px}
+.grade-tile{position:relative;display:flex;flex-direction:column;align-items:flex-start;isolation:isolate;min-height:245px;border-radius:18px;padding:20px 18px 19px;background:linear-gradient(155deg,#0c1e43 10%,#09132a 95%);color:#fff;text-decoration:none;border:1px solid #193463;overflow:hidden;transition:transform .2s ease,box-shadow .2s ease,border-color .2s ease}
+.grade-tile::before{content:'';position:absolute;width:170px;height:170px;border:1px solid #ffffff13;border-radius:50%;right:-85px;top:40px;pointer-events:none;box-shadow:0 0 0 26px #ffffff06,0 0 0 55px #ffffff04;z-index:-1}
+.grade-tile:hover,.grade-tile:focus-visible{transform:translateY(-4px);box-shadow:0 18px 32px #071a362e;border-color:#ff962c}
+.grade-tile-top{font-weight:800;font-size:9.5px;letter-spacing:.115em;color:#b7c7e0}
+.grade-tile strong{font-size:clamp(62px,6vw,88px);line-height:1.1;letter-spacing:-.09em;color:#ff931f;font-weight:900;margin:11px 0 9px}
+.grade-tile-name{font-size:17px;font-weight:850;line-height:1.2}
+.grade-tile-topic{font-size:11.5px;color:#cad8ee;line-height:1.5;margin-top:7px;padding-right:10px}
+.grade-tile-arrow{position:absolute;right:17px;bottom:15px;display:grid;place-items:center;width:28px;height:28px;border-radius:50%;background:#ff8a18;color:#0b1b38;font-size:17px;font-weight:800}
+.grade-tile-final{background:linear-gradient(155deg,#f48317,#b95008);border-color:#ef892b}
+.grade-tile-final .grade-tile-top,.grade-tile-final .grade-tile-topic{color:#fff2df}
+.grade-tile-final strong{color:#fff}
+.grade-tile-final .grade-tile-arrow{background:#061a36;color:#fff}
+.grade-note{margin:18px 0 0;color:#617089;font-size:12px}
+@media(max-width:1100px){.grade-launch-grid{grid-template-columns:repeat(3,minmax(0,1fr))}.grade-tile{min-height:216px}.grade-tile strong{font-size:73px}}
+@media(max-width:650px){.grade-launch{padding-block:48px}.grade-launch-heading{display:block}.grade-launch-heading .text-link{display:inline-block;margin-top:18px}.grade-launch-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.grade-tile{padding:16px;min-height:210px}.grade-tile strong{font-size:65px}.grade-tile-top{font-size:8px}.grade-tile-name{font-size:16px}.grade-tile-topic{font-size:11px}.grade-tile-final{grid-column:1/-1;min-height:190px}.grade-tile-final strong{font-size:75px}}
+@media(prefers-reduced-motion:reduce){.grade-tile{transition:none}}
