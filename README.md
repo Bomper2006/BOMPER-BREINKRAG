@@ -1,11 +1,23 @@
-# BOMPER BREINKRAG — gereed vir GitHub Pages
+# BOMPER BREINKRAG — multi-bladsy webwerf
 
-Voorgestelde URL: https://bomper2006.github.io/BOMPER-BREINKRAG/
+Die webwerf het **7 aparte HTML-bladsye**, nie ’n eenbladsy-webwerf met afrolkieslys nie:
 
-1. Skep 'n publieke repository by https://github.com/new met die naam `BOMPER-BREINKRAG`.
-2. Kies **Add file → Upload files** en laai die *uitgepakte lêers* direk in die repository se hoofvlak op; moenie die ZIP-lêer self oplaai nie. Commit changes.
-3. Open **Settings → Pages** en kies **Deploy from a branch**, `main`, `/(root)`, Save.
-4. Wanneer die webwerf werk, voeg die URL by https://search.google.com/search-console as 'n **URL prefix** property, verifieer eienaarskap, en dien `sitemap.xml` in.
-5. Gebruik URL Inspection → Request indexing. Google besluit self wanneer/whether dit indekseer.
+- `index.html` — tuisblad
+- `lesse.html` — 10 mini-lesse, graadfilter en soektog
+- `videos.html` — BOMPER BREINKRAG se Graad 12-video’s
+- `vraestelle.html` — skakels na amptelike DBE NSS-vraestelle
+- `oefen.html` — interaktiewe vasvrae en punte
+- `oor.html` — oor die skepper en leerplatform
+- `kontak.html` — lesversoeke wat gekopieer kan word
 
-Belangrik: As jy die repositorynaam verander, moet die URLs in die SEO-meta-tags, robots.txt en sitemap.xml ook verander. Die YouTube-kanaal word gekoppel. Die eerste video verwys na die kanaalblad omdat sy presiese YouTube-ID nie bevestig is nie.
+`styles.css` bevat die gedeelde ontwerp. `app.js` bevat die werking, en `data.js` behou die vorige 10 mini-lesse en 10 vrae.
+
+## Publiseer op GitHub Pages
+
+Laai al die lêers in die hoofvlak van `Bomper2006/BOMPER-BREINKRAG` op, met `index.html` daar. GitHub Pages publiseer vanaf `main` en `/(root)`.
+
+- Skakels gebruik **aparte HTML-lêers**; geen navigasie via `#afdeling` nie.
+- Die Google Search Console-verifikasielêer (`google033daae693e071e7.html`) is behou.
+- Die sitemap bevat al 7 HTML-bladsye.
+- Vir die 2026-video word na die kanaal se video-oorsig verwys totdat die presiese video-ID bevestig is.
+- Die `kontak.html`-blad kopieer voorstelle; daar is nie ’n outomatiese boodskapdiens nie.

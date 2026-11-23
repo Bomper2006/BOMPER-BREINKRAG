@@ -1,382 +1,46 @@
 <!doctype html>
 <html lang="af">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#060b1c">
-  <meta name="description" content="BOMPER BREINKRAG: Afrikaanse wiskundelesse, Graad 8–12 mini-lesse, NSS-algebravideo’s en oefenvrae. Wiskunde sonder stress.">
-  <title>BOMPER BREINKRAG | Afrikaanse Wiskunde Graad 8–12</title>
-  <meta name="robots" content="index, follow">
-  <link rel="canonical" href="https://bomper2006.github.io/BOMPER-BREINKRAG/">
-  <meta property="og:type" content="website">
-  <meta property="og:locale" content="af_ZA">
-  <meta property="og:site_name" content="BOMPER BREINKRAG">
-  <meta property="og:title" content="BOMPER BREINKRAG | Wiskunde sonder stress">
-  <meta property="og:description" content="BOMPER BREINKRAG: Afrikaanse wiskundelesse, Graad 8–12 mini-lesse, NSS-algebravideo’s en oefenvrae. Wiskunde sonder stress.">
-  <meta property="og:url" content="https://bomper2006.github.io/BOMPER-BREINKRAG/">
-  <meta property="og:image" content="https://bomper2006.github.io/BOMPER-BREINKRAG/kanaal-banier.jpg">
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:image" content="https://bomper2006.github.io/BOMPER-BREINKRAG/kanaal-banier.jpg">
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"EducationalOrganization","name":"BOMPER BREINKRAG","url":"https://bomper2006.github.io/BOMPER-BREINKRAG/","description":"Afrikaanse wiskundelesse en NSS-eksamenvoorbereiding","sameAs":["https://www.youtube.com/@BOMPERBREINKRAG"],"inLanguage":"af"}</script>
-  <link rel="icon" href="favicon.svg" type="image/svg+xml">
-  <style>
-    :root { --bg:#0b0b0e; --panel:#151519; --panel2:#1b1a1d; --edge:#33302a; --gold:#e6bb65; --gold2:#ffdc8e; --text:#f8f6f1; --muted:#b8b5ae; --soft:#8c8982; --radius:22px; --max:1180px; }
-    * { box-sizing:border-box; }
-    html { scroll-behavior:smooth; scroll-padding-top:92px; }
-    body { margin:0; background:var(--bg); color:var(--text); font:16px/1.6 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; }
-    a { color:inherit; text-decoration:none; }
-    button, input, select, textarea { font:inherit; }
-    button { cursor:pointer; }
-    :focus-visible { outline:3px solid var(--gold2); outline-offset:3px; }
-    ::selection { background:#f3cc7a; color:#111; }
-    .visually-hidden { position:absolute; width:1px; height:1px; padding:0; margin:-1px; overflow:hidden; clip:rect(0,0,0,0); white-space:nowrap; border:0; }
-    .container { width:min(var(--max),calc(100% - 42px)); margin-inline:auto; }
-    .topbar { height:78px; position:sticky; top:0; z-index:60; background:rgba(10,10,13,.9); border-bottom:1px solid #302d28; backdrop-filter:blur(18px); }
-    .topbar .container { height:100%; display:flex; align-items:center; justify-content:space-between; gap:22px; }
-    .brand { display:inline-flex; gap:11px; align-items:center; min-width:0; }
-    .brand-emblem { width:39px; height:39px; display:grid; place-items:center; background:linear-gradient(135deg,#ffe19b,#b98c3d); color:#15110b; font-weight:950; font-size:23px; border-radius:11px; box-shadow:0 0 22px rgba(222,170,69,.18); }
-    .brand-name { font-weight:900; letter-spacing:.08em; font-size:17px; line-height:1.12; }
-    .brand-name span { display:block; color:var(--gold); letter-spacing:.26em; font-size:10px; padding-top:5px; }
-    nav { display:flex; align-items:center; gap:26px; }
-    nav a { color:#d9d5cd; font-size:14px; font-weight:650; transition:color .2s; }
-    nav a:hover { color:var(--gold2); }
-    .nav-cta { background:var(--gold); color:#1b160c!important; font-weight:800; border-radius:12px; padding:11px 17px; }
-    .menu-toggle { display:none; border:1px solid #514638; background:#1d1a15; color:var(--gold); width:44px; height:44px; border-radius:11px; font-size:22px; }
-    .hero { position:relative; overflow:hidden; padding:94px 0 93px; min-height:650px; }
-    .hero::before { content:""; position:absolute; inset:0; pointer-events:none; background:radial-gradient(ellipse 550px 420px at 84% 48%,rgba(214,151,56,.12),transparent 75%),radial-gradient(ellipse 380px 380px at 0% 0%,rgba(153,106,48,.07),transparent 75%); }
-    .hero-layout { position:relative; display:grid; grid-template-columns:1.02fr .98fr; align-items:center; gap:56px; }
-    .eyebrow { display:inline-flex; gap:9px; align-items:center; padding:8px 13px; border-radius:50px; background:#231e15; border:1px solid #4e3b1b; color:var(--gold2); letter-spacing:.12em; font-size:11px; font-weight:800; text-transform:uppercase; }
-    .tiny-star { display:inline-block; width:7px; height:7px; background:var(--gold); border-radius:50%; box-shadow:0 0 15px var(--gold); }
-    h1, h2, h3, p { margin-top:0; }
-    h1 { font-size:clamp(49px,6.3vw,87px); letter-spacing:-.075em; line-height:1.035; margin:24px 0 23px; font-weight:930; }
-    .gold-text { color:var(--gold2); }
-    .hero-description { color:#c9c5bc; font-size:18px; max-width:530px; line-height:1.78; margin-bottom:29px; }
-    .button-row { display:flex; gap:12px; flex-wrap:wrap; }
-    .btn { display:inline-flex; justify-content:center; align-items:center; gap:10px; border-radius:13px; border:1px solid transparent; padding:14px 20px; min-height:52px; font-weight:800; letter-spacing:-.01em; transition:transform .17s,background .17s,border-color .17s; }
-    .btn:hover { transform:translateY(-2px); }
-    .btn-primary { color:#1d1608; background:linear-gradient(110deg,var(--gold),#ffdf95); box-shadow:0 6px 25px rgba(209,160,64,.15); }
-    .btn-outline { border-color:#5b513f; background:#191817; color:#f5e1ba; }
-    .btn-outline:hover { border-color:var(--gold); }
-    .hero-note { font-size:12px; color:#99938a; margin-top:15px; }
-    .hero-meta { display:flex; flex-wrap:wrap; gap:25px; margin-top:35px; }
-    .meta-item { border-left:2px solid #c49b4d; padding-left:13px; }
-    .meta-item strong { display:block; font-size:20px; line-height:1.2; }
-    .meta-item small { color:#a7a29a; font-size:12px; }
-    .math-board { position:relative; min-height:445px; border-radius:30px; background:linear-gradient(145deg,#231e19 0%,#131215 55%,#211a13 100%); border:1px solid #5c462d; box-shadow:0 25px 90px rgba(0,0,0,.3),inset 0 0 70px rgba(223,166,68,.04); overflow:hidden; transform:rotate(-2deg); }
-    .math-board::before { content:""; position:absolute; inset:0; background-image:linear-gradient(#a07b3723 1px,transparent 1px),linear-gradient(90deg,#a07b3723 1px,transparent 1px); background-size:36px 36px; mask-image:linear-gradient(to bottom,black,transparent 90%); }
-    .math-board::after { content:""; position:absolute; width:390px; height:390px; top:-230px; right:-160px; border:1px solid #b6985c55; border-radius:50%; box-shadow:0 0 0 40px #9e773b0a,0 0 0 80px #9e773b0b,0 0 0 120px #9e773b07; }
-    .board-inner { position:relative; z-index:1; height:445px; padding:36px; display:flex; flex-direction:column; justify-content:space-between; }
-    .board-top { display:flex; align-items:center; justify-content:space-between; color:#f0cb7f; font-weight:850; letter-spacing:.18em; font-size:12px; }
-    .board-badge { border:1px solid #685439; padding:7px 11px; border-radius:50px; background:#201c17; letter-spacing:.06em; font-size:11px; }
-    .formula { font-family:Georgia,"Times New Roman",serif; text-align:center; font-style:italic; font-size:clamp(42px,5vw,69px); color:#ffe2a2; letter-spacing:-.04em; text-shadow:0 0 36px #ecb75444; }
-    .board-bottom { display:flex; justify-content:space-between; align-items:flex-end; gap:14px; }
-    .board-bottom strong { font-size:20px; line-height:1.2; }
-    .board-bottom small { display:block; font-size:12px; margin-top:6px; color:#aca292; }
-    .graph { width:150px; height:110px; flex:none; opacity:.92; }
-    .section { padding:84px 0; }
-    .section-dark { background:#111114; border-block:1px solid #252428; }
-    .section-kicker { color:var(--gold); font-size:12px; font-weight:900; letter-spacing:.18em; text-transform:uppercase; margin-bottom:10px; }
-    .section h2 { font-size:clamp(30px,3.6vw,45px); line-height:1.14; letter-spacing:-.045em; margin-bottom:15px; }
-    .section-lead { color:var(--muted); max-width:620px; margin-bottom:32px; }
-    .section-header { display:flex; align-items:end; justify-content:space-between; gap:24px; }
-    .counter { color:#cdbb95; font-size:13px; background:#242018; border:1px solid #42351f; padding:8px 14px; border-radius:100px; white-space:nowrap; }
-    .filters { display:flex; flex-wrap:wrap; gap:12px; align-items:center; justify-content:space-between; margin-bottom:24px; }
-    .filter-list { display:flex; flex-wrap:wrap; gap:8px; }
-    .filter { padding:10px 17px; background:#1d1b1a; border:1px solid #3f3931; border-radius:12px; color:#ddd7ca; font-weight:750; font-size:13px; }
-    .filter.active,.filter[aria-pressed="true"] { background:var(--gold); border-color:var(--gold); color:#21180c; }
-    .search-wrap { display:flex; align-items:center; gap:8px; padding:0 13px; border:1px solid #45403a; border-radius:12px; background:#1c1b1e; min-height:45px; width:260px; color:#b3ab9e; }
-    .search-wrap input { border:0; outline:none; background:transparent; color:var(--text); width:100%; min-width:0; font-size:14px; }
-    .search-wrap:focus-within { border-color:var(--gold); }
-    .lesson-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:17px; }
-    .lesson-card { border:1px solid #39342e; border-radius:19px; background:linear-gradient(155deg,#24201c,#17171a 65%); padding:22px; display:flex; min-height:246px; flex-direction:column; transition:transform .2s,border-color .2s; }
-    .lesson-card:hover { transform:translateY(-4px); border-color:#8d6d37; }
-    .lesson-card-top { display:flex; align-items:center; justify-content:space-between; gap:12px; margin-bottom:31px; }
-    .grade-tag { padding:6px 10px; background:#43341c; color:#f5d38f; border-radius:7px; font-weight:850; font-size:11px; }
-    .topic-mark { font-family:Georgia,serif; color:#9f8255; font-size:27px; font-style:italic; }
-    .lesson-card h3 { font-size:20px; letter-spacing:-.025em; line-height:1.25; margin-bottom:10px; }
-    .lesson-card p { color:#aaa49c; font-size:13px; line-height:1.55; margin-bottom:22px; }
-    .lesson-link { color:var(--gold2); background:none; padding:0; border:0; text-align:left; margin-top:auto; font-weight:800; font-size:13px; }
-    .lesson-link:hover { text-decoration:underline; }
-    .empty { padding:28px; color:#c5bbaa; border:1px dashed #67543a; border-radius:14px; text-align:center; }
-    .practice-grid { display:grid; grid-template-columns:.87fr 1.13fr; gap:34px; align-items:center; }
-    .feature-list { display:grid; gap:18px; margin:27px 0; }
-    .feature { display:flex; gap:13px; color:#c9c4b9; }
-    .feature-icon { display:grid; place-items:center; border-radius:11px; width:38px; height:38px; color:#ffe0a0; background:#3c2d1d; flex:none; font-size:18px; }
-    .feature strong { color:white; display:block; margin-bottom:3px; }
-    .feature span { font-size:13px; }
-    .quiz-panel { background:linear-gradient(150deg,#252019,#141416); border-radius:24px; border:1px solid #594527; padding:30px; min-height:372px; box-shadow:0 20px 70px #0003; }
-    .quiz-heading { display:flex; justify-content:space-between; align-items:center; gap:10px; margin-bottom:22px; }
-    .quiz-heading strong { letter-spacing:.03em; }
-    .quiz-heading span { color:#e6c381; background:#47351f; border-radius:8px; padding:6px 9px; font-size:12px; }
-    .quiz-control { width:100%; border-radius:11px; border:1px solid #5b4c37; background:#181715; color:#fff; padding:13px; margin:10px 0 19px; }
-    .quiz-choice { display:block; width:100%; text-align:left; border-radius:11px; padding:12px 14px; background:#211f1c; color:#f6f1e8; border:1px solid #514538; margin-bottom:9px; }
-    .quiz-choice:hover { border-color:#c69f60; }
-    .quiz-choice.selected { border-color:var(--gold); background:#3e311f; }
-    .quiz-choice.correct { background:#203d32; border-color:#76b49c; }
-    .quiz-choice.wrong { background:#462b29; border-color:#db877a; }
-    .quiz-choice:disabled { cursor:default; opacity:.95; }
-    .quiz-progress-track { height:5px; background:#3e372e; border-radius:4px; overflow:hidden; margin:12px 0 22px; }
-    .quiz-progress-track div { background:var(--gold); height:100%; transition:width .25s; }
-    .quiz-question { font-size:22px; font-weight:800; line-height:1.35; margin-bottom:22px; }
-    .quiz-feedback { color:#e5d6b5; margin:12px 0; min-height:24px; font-size:13px; }
-    .muted { color:var(--muted); }
-    .quiz-actions { display:flex; justify-content:space-between; align-items:center; gap:14px; margin-top:14px; }
-    .quiz-actions button:disabled { opacity:.5; cursor:not-allowed; transform:none; }
-    .about-grid { display:grid; grid-template-columns:1.1fr .9fr; gap:55px; align-items:center; }
-    .about-mark { background:radial-gradient(circle at 50% 40%,#4a361c,#181717 65%); border:1px solid #4a3a22; border-radius:26px; min-height:320px; display:grid; place-items:center; position:relative; overflow:hidden; }
-    .about-mark::after { content:"BOMPER"; position:absolute; bottom:23px; color:#e1bd76; font-weight:900; letter-spacing:.3em; font-size:15px; }
-    .about-symbol { display:grid; place-items:center; width:176px; height:176px; border:2px solid #e3b96b; outline:1px solid #9e7b46; outline-offset:11px; border-radius:25px; font-size:118px; font-weight:950; line-height:1; color:#efd092; box-shadow:0 0 90px #bb914d25; }
-    .quote { border-left:3px solid var(--gold); padding-left:18px; color:#e3c58b; font-size:20px; font-weight:650; margin:20px 0; }
-    .contact-card { padding:40px; border:1px solid #59482e; border-radius:25px; background:linear-gradient(140deg,#32271a,#171719 73%); display:grid; grid-template-columns:1fr .85fr; align-items:center; gap:34px; }
-    .contact-card h2 { margin-bottom:14px; }
-    .contact-card textarea { resize:vertical; min-height:119px; width:100%; border-radius:13px; background:#171616; color:#eee6d9; padding:14px; border:1px solid #6c5332; }
-    .contact-card textarea:focus { outline:2px solid #dfb766; }
-    .contact-card label { display:block; font-size:13px; color:#e0cfac; margin-bottom:8px; font-weight:750; }
-    .request-note { font-size:12px; color:#b2a797; margin-top:10px; }
-    footer { padding:30px 0; border-top:1px solid #332f2a; }
-    .footer-layout { display:flex; justify-content:space-between; flex-wrap:wrap; gap:15px; align-items:center; }
-    footer p { margin:0; color:#9f9890; font-size:12px; }
-    footer strong { color:#e5c27e; }
-    .footer-links { display:flex; gap:18px; font-size:13px; color:#c4b9a7; }
-    dialog { width:min(550px,calc(100% - 28px)); max-height:min(85vh,720px); border:1px solid #8b6936; background:#191819; color:#fff; border-radius:22px; padding:28px; box-shadow:0 30px 100px #000b; }
-    dialog::backdrop { background:#000b; backdrop-filter:blur(4px); }
-    .dialog-head { display:flex; justify-content:space-between; align-items:start; gap:20px; }
-    .dialog-head h3 { font-size:27px; margin:6px 0 13px; letter-spacing:-.035em; }
-    .dialog-close { background:#302a24; color:#f6ddaa; border:1px solid #6b5439; width:39px; height:39px; border-radius:10px; flex:none; font-size:22px; }
-    .formula-box { background:#29251f; border:1px solid #5d4b31; border-radius:12px; padding:18px; font:italic 24px/1.4 Georgia,serif; color:#ffe0a1; margin:16px 0; }
-    .dialog-example { white-space:pre-line; color:#e7e0d5; background:#111113; padding:16px; border-radius:12px; line-height:1.8; }
-    .dialog-small { font-size:13px; color:#b7ac9a; }
-    @media (max-width:900px) { .hero-layout { gap:25px; } .math-board,.board-inner { min-height:365px; height:365px; } .board-inner { padding:24px; } .graph { width:110px; } .lesson-grid { grid-template-columns:repeat(2,1fr); } .practice-grid,.about-grid { gap:25px; } nav { gap:15px; } }
-    @media (max-width:700px) { .topbar { height:69px; } .menu-toggle { display:block; } nav { display:none; position:absolute; left:0; right:0; top:69px; background:#151416; padding:17px 21px 22px; border-bottom:1px solid #493e2e; flex-direction:column; align-items:stretch; gap:14px; box-shadow:0 20px 30px #0006; } nav.open { display:flex; } nav a { padding:8px 3px; } nav .nav-cta { text-align:center; } .hero { padding:62px 0 70px; } .hero-layout,.practice-grid,.about-grid,.contact-card { grid-template-columns:1fr; } .hero-description { font-size:16px; } .math-board { max-width:530px; width:100%; margin:18px auto 0; transform:rotate(-1deg); } .section { padding:64px 0; } .section-header { display:block; } .counter { display:inline-block; margin-bottom:18px; } .lesson-grid { grid-template-columns:1fr; } .filters { align-items:stretch; } .search-wrap { width:100%; } .lesson-card { min-height:224px; } .quiz-panel { padding:21px; } .contact-card { padding:26px; } .about-mark { min-height:270px; } h1 { font-size:clamp(48px,10vw,68px); } .footer-layout { align-items:start; flex-direction:column; } }
-    @media (prefers-reduced-motion:reduce) { *,*::before,*::after { scroll-behavior:auto!important; transition:none!important; } }
-
-    /* BOMPER BREINKRAG: channel-inspired navy / electric orange / silver palette */
-    :root { --bg:#050916; --panel:#0c1230; --panel2:#141c40; --edge:#273258; --gold:#ff8c16; --gold2:#ffae44; --text:#f6f7fa; --muted:#b5c0d9; --soft:#93a0c1; }
-    body { background:var(--bg); background-image:radial-gradient(ellipse 1100px 550px at 95% 0%,#16224c44,transparent 80%); }
-    .topbar { background:rgba(5,9,23,.94); border-color:#1f2c52; }
-    .brand-photo { width:44px; height:44px; object-fit:cover; border-radius:50%; border:2px solid #ff8b10; box-shadow:0 0 17px #ff7a0029; flex:none; }
-    .brand-name { font-style:italic; letter-spacing:.01em; font-weight:950; font-size:17px; }
-    .brand-name span { color:#ff8b0a; letter-spacing:.19em; font-size:10px; }
-    nav a { color:#d9dfed; }
-    .nav-cta,.btn-primary { background:linear-gradient(130deg,#ffad32,#ff7700); color:#070c1d!important; box-shadow:0 10px 30px #e66d002f; }
-    .menu-toggle { border-color:#ff8b0055; background:#131b38; color:#ff991f; }
-    .hero { padding:90px 0 74px; min-height:630px; background:linear-gradient(135deg,#050916,#0c1532 77%,#060b1a); border-bottom:1px solid #253358; }
-    .hero::before { background:radial-gradient(ellipse 500px 380px at 82% 45%,#ff800015,transparent 76%),radial-gradient(ellipse 460px 360px at 14% 0%,#2b54a422,transparent 80%); }
-    .hero-layout { grid-template-columns:1.02fr .98fr; gap:42px; }
-    .eyebrow { color:#ffb15a; background:#ff840014; border-color:#ff8c004f; }
-    .tiny-star { background:#ff9000; box-shadow:0 0 15px #ff8200; }
-    h1 { line-height:.98; letter-spacing:-.045em; font-size:clamp(52px,6.2vw,86px); margin:26px 0; }
-    .hero-bomper,.hero-breinkrag { display:block; font-style:italic; font-family:Impact,'Arial Black',sans-serif; transform:skewX(-7deg); text-transform:uppercase; letter-spacing:.005em; }
-    .hero-bomper { color:#ecf0f6; background:linear-gradient(#fff,#a8b4cd 65%,#f7f7f7); background-clip:text; -webkit-background-clip:text; -webkit-text-fill-color:transparent; filter:drop-shadow(2px 3px 0 #414a6b); }
-    .hero-breinkrag { color:#ff8813; background:linear-gradient(180deg,#ffc255 0%,#ff890e 50%,#ff6200 100%); background-clip:text; -webkit-background-clip:text; -webkit-text-fill-color:transparent; filter:drop-shadow(2px 3px 0 #64300b); font-size:.88em; }
-    .hero-description { color:#cad3e6; font-size:17px; max-width:540px; }
-    .btn-outline { border-color:#354367; background:#111b38; color:#f0f3ff; }
-    .btn-outline:hover { border-color:#ff9400; }
-    .hero-note { color:#99a7c6; }
-    .hero-meta { gap:27px; }
-    .meta-item { border-left-color:#ff8c00; }
-    .meta-item small { color:#a9b6d4; }
-    .channel-visual { background:#0c1330; border:1px solid #384364; border-radius:22px; overflow:hidden; box-shadow:0 26px 60px #0008,0 0 60px #ff85000b; transform:rotate(1deg); }
-    .channel-topline { background:#0c1637; color:#b9c6e4; font-size:10px; font-weight:900; letter-spacing:.11em; padding:12px 17px; display:flex; align-items:center; gap:9px; }
-    .channel-topline > span:last-child { margin-left:auto; color:#fb9729; }
-    .live-dot { width:8px; height:8px; background:#ff8c16; box-shadow:0 0 12px #ff9200; border-radius:50%; }
-    .channel-poster { position:relative; min-height:327px; background:radial-gradient(circle at 78% 23%,#fe8a0922,transparent 32%),linear-gradient(125deg,#060a1b,#111d48 70%,#090d1c); padding:66px 20px 62px; display:flex; align-items:center; justify-content:center; flex-direction:column; overflow:hidden; }
-    .poster-grid { position:absolute; inset:0; background-image:linear-gradient(#657cb415 1px,transparent 1px),linear-gradient(90deg,#657cb415 1px,transparent 1px); background-size:37px 37px; mask-image:linear-gradient(to right,transparent,#0007); }
-    .math-prompt { position:absolute; font:italic 19px Georgia,serif; color:#d5deff6e; }
-    .prompt-one { top:30px; left:21px; }
-    .prompt-two { bottom:25px; right:17px; }
-    .prompt-three { top:30px; right:36px; color:#ff900085; }
-    .poster-brand { position:relative; z-index:2; text-align:center; line-height:.95; transform:skewX(-7deg); filter:drop-shadow(4px 5px 0 #010510); }
-    .poster-brand > span,.poster-brand > strong { display:block; font-style:italic; font-family:Impact,'Arial Black',sans-serif; letter-spacing:.02em; }
-    .poster-brand > span { color:#eef1f8; font-size:clamp(52px,5.7vw,81px); text-shadow:1px 3px 0 #535e78; }
-    .poster-brand > strong { color:#ff8c0b; font-size:clamp(47px,5vw,70px); text-shadow:1px 3px 0 #854017; white-space:nowrap; }
-    .bolt { font-size:.9em; color:#ff9c0a; }
-    .poster-strap { z-index:2; margin-top:18px; padding:6px 13px; background:#ff8700; color:#070c1d; font-size:12px; font-weight:950; letter-spacing:.1em; }
-    .poster-bottom { position:absolute; bottom:0; width:100%; display:flex; align-items:center; justify-content:space-between; color:#a8badb; background:#080d22a3; border-top:1px solid #283358; padding:11px 17px; font-size:10px; letter-spacing:.08em; font-weight:800; }
-    .poster-bottom span { color:#ff9d2e; }
-    .channel-footer { display:flex; align-items:center; gap:12px; padding:15px 18px; }
-    .channel-footer img { width:51px; height:51px; border-radius:50%; border:2px solid #ff9100; object-fit:cover; }
-    .channel-footer strong { display:block; font-size:13px; }
-    .channel-footer small { color:#9faecf; font-size:11px; }
-    .channel-footer a { margin-left:auto; color:#ffad44; font-size:10px; font-weight:900; white-space:nowrap; }
-    .section-dark { background:#091027; border-color:#243157; }
-    .section-kicker { color:#ff9c20; }
-    .gold-text { color:#ff9c20; }
-    .section-lead { color:#b6c1d9; }
-    .counter { color:#ffb765; background:#ff830014; border-color:#9a511a; }
-    .filter { background:#131b38; border-color:#344269; color:#dce5f7; }
-    .filter.active,.filter[aria-pressed='true'] { color:#061028; background:#ff941b; border-color:#ff941b; }
-    .search-wrap { background:#121a35; border-color:#364367; }
-    .lesson-card { border-color:#2c3d63; background:linear-gradient(145deg,#162149,#0b1128 75%); }
-    .lesson-card:hover { border-color:#ff941b; }
-    .grade-tag { background:#ff8c1626; color:#ffb968; }
-    .lesson-card p,.muted { color:#b6c1d9; }
-    .topic-mark { color:#f49831; }
-    .lesson-link { color:#ffa93c; }
-    .feature,.request-note { color:#b8c5df; }
-    .feature-icon { color:#ffb656; background:#ff89001b; }
-    .quiz-panel { background:linear-gradient(145deg,#1b254a,#0b1128); border-color:#344873; }
-    .quiz-heading span { background:#ff891c25; color:#ffb65b; }
-    .quiz-control,.quiz-choice { background:#121d3a; color:#f3f5ff; border-color:#354669; }
-    .quiz-choice.selected { background:#3a321f; }
-    .quiz-choice.correct { background:#153b33; }
-    .quiz-choice.wrong { background:#4b2329; }
-    .quiz-progress-track { background:#273255; }
-    .quiz-feedback { color:#d7e0f3; }
-    .about-mark { background:radial-gradient(circle,#1f2e5b,#070b1b 65%); border-color:#3b4b74; }
-    .about-mark::after { color:#ff941f; content:'BREINKRAG'; }
-    .about-symbol { border-color:#ff941f; outline-color:#ff941f66; color:#ff9518; }
-    .quote { color:#ffb85c; }
-    .contact-card { background:linear-gradient(140deg,#182246,#080d1e 75%); border-color:#3b4973; }
-    .contact-card textarea { background:#0f1932; border-color:#364769; color:#fff; }
-    .contact-card textarea:focus { outline-color:#ff9519; }
-    .contact-card label { color:#dbe4f6; }
-    footer { border-color:#263456; }
-    .footer-links { color:#b6c4de; }
-    dialog { background:#0c1431; border-color:#495f91; }
-    .formula-box { background:#15213d; border-color:#4c5e81; color:#ffb65c; }
-    .dialog-example { background:#080d1e; }
-    .dialog-close { color:#ffbd6d; background:#182347; border-color:#495c87; }
-    .about-symbol img { width:100%; height:100%; border-radius:22px; object-fit:cover; }
-    .videos-section { background:linear-gradient(180deg,#080e23,#0c1430); }
-    .videos-section h2 { max-width:690px; }
-    .video-more { color:#ffae3b; border:1px solid #87551e; padding:11px 17px; border-radius:10px; font-size:12px; font-weight:800; margin-bottom:35px; white-space:nowrap; }
-    .video-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:20px; }
-    .video-card { background:#111b39; border:1px solid #304166; border-radius:19px; overflow:hidden; box-shadow:0 18px 35px #0004; }
-    .thumbnail { display:block; position:relative; background:#080c20; aspect-ratio:335 / 188; overflow:hidden; }
-    .thumbnail img { width:100%; height:100%; object-fit:cover; display:block; transition:transform .2s; }
-    .thumbnail:hover img { transform:scale(1.025); }
-    .video-duration { position:absolute; right:12px; bottom:10px; background:#070914e0; color:#fff; font-size:12px; padding:3px 7px; border-radius:5px; }
-    .play-button { position:absolute; top:50%; left:50%; transform:translate(-50%,-50%); background:#ff8800e8; width:49px; height:49px; border-radius:50%; display:grid; place-items:center; color:#071026; font-size:17px; }
-    .video-card-body { padding:20px 20px 23px; }
-    .video-tag { color:#ffaf49; font-size:11px; font-weight:850; letter-spacing:.1em; }
-    .video-card h3 { font-size:18px; line-height:1.4; margin:8px 0 18px; }
-    .video-card-body > a { color:#ffad3b; font-weight:850; font-size:13px; }
-    .video-card-body > a:hover { text-decoration:underline; }
-    @media (max-width:900px) { .hero-layout { gap:25px; } .poster-brand>span { font-size:60px; } .poster-brand>strong { font-size:48px; } .channel-footer a { font-size:9px; } }
-    @media (max-width:700px) { nav { background:#080e26; border-color:#2c3964; } .hero { padding-top:65px; } .hero-layout { grid-template-columns:1fr; } .hero-bomper { font-size:1.08em; } .hero-breinkrag { font-size:.82em; } .channel-visual { transform:none; } .video-grid { grid-template-columns:1fr; } .channel-poster { min-height:285px; } .poster-brand>span { font-size:clamp(50px,12vw,75px); } .poster-brand>strong { font-size:clamp(41px,9.5vw,65px); } .section-header { display:block; } .video-more { display:inline-flex; margin-bottom:23px; } }
-    @media (max-width:370px) { .poster-brand>span { font-size:45px; } .poster-brand>strong { font-size:37px; } .channel-footer a { font-size:8px; } .channel-footer img { width:43px; height:43px; } }
-  </style>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#081229"><meta name="robots" content="index,follow">
+<title>BOMPER BREINKRAG | Wiskunde sonder stress</title><meta name="description" content="Leer wiskunde in Afrikaans met BOMPER BREINKRAG: Graad 8–12 mini-lesse, NSS-wiskundevideo’s, vraestelle en interaktiewe vasvrae.">
+<link rel="canonical" href="https://bomper2006.github.io/BOMPER-BREINKRAG/"><link rel="icon" type="image/svg+xml" href="favicon.svg">
+<meta property="og:type" content="website"><meta property="og:locale" content="af_ZA"><meta property="og:site_name" content="BOMPER BREINKRAG">
+<meta property="og:title" content="BOMPER BREINKRAG | Wiskunde sonder stress"><meta property="og:description" content="Leer wiskunde in Afrikaans met BOMPER BREINKRAG: Graad 8–12 mini-lesse, NSS-wiskundevideo’s, vraestelle en interaktiewe vasvrae."><meta property="og:url" content="https://bomper2006.github.io/BOMPER-BREINKRAG/">
+<meta property="og:image" content="https://bomper2006.github.io/BOMPER-BREINKRAG/kanaal-banier.jpg"><meta name="twitter:card" content="summary_large_image">
+<link rel="stylesheet" href="styles.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"EducationalOrganization","name":"BOMPER BREINKRAG","url":"https://bomper2006.github.io/BOMPER-BREINKRAG/","description":"Afrikaanse wiskundelesse en NSS-eksamenvoorbereiding","sameAs":["https://www.youtube.com/@BOMPERBREINKRAG"],"inLanguage":"af"}</script>
+<script src="data.js" defer></script><script src="app.js" defer></script>
 </head>
-<body>
-<header class="topbar">
-  <div class="container">
-    <a class="brand" href="#tuis" aria-label="BOMPER Breinkrag - tuis"><img class="brand-photo" src="kanaal-logo.jpg" alt="BOMPER BREINKRAG-kanaallogo"><span class="brand-name">BOMPER<span>BREINKRAG</span></span></a>
-    <button class="menu-toggle" id="menuToggle" type="button" aria-expanded="false" aria-controls="mainNav" aria-label="Maak kieslys oop">☰</button>
-    <nav id="mainNav" aria-label="Hoofnavigasie">
-      <a href="#tuis">Tuis</a><a href="#videos">Video’s</a><a href="#lesse">Lesse</a><a href="#oefen">Oefen</a><a href="#oor">Oor ons</a><a href="#kontak">Kontak</a>
-      <a class="nav-cta" href="https://www.youtube.com/@BOMPERBREINKRAG" target="_blank" rel="noopener noreferrer" data-channel-link>YouTube-kanaal ↗</a>
-    </nav>
-  </div>
-</header>
-<main>
-  <section class="hero" id="tuis">
-    <div class="container hero-layout">
-      <div>
-        <div class="eyebrow"><span class="tiny-star"></span> Wiskunde sonder stress • Afrikaans</div>
-        <h1><span class="hero-bomper">BOMPER</span><span class="hero-breinkrag">BREINKRAG</span></h1>
-        <p class="hero-description">WISKUNDE SONDER STRESS. Leer wiskunde in Afrikaans met NSS-vraestelle, algebra, uitgewerkte voorbeelde en oefenvrae. Kyk die videos en bou jou selfvertroue, een som op ’n slag.</p>
-        <div class="button-row"><a href="#videos" class="btn btn-primary">Kyk video’s <span aria-hidden="true">↗</span></a><a class="btn btn-outline" href="https://www.youtube.com/@BOMPERBREINKRAG" target="_blank" rel="noopener noreferrer" data-channel-link>Kyk op YouTube ↗</a></div>
-        <p class="hero-note">Amptelike kanaal: @BOMPERBREINKRAG</p>
-        <div class="hero-meta"><div class="meta-item"><strong>5</strong><small>Skoolgrade</small></div><div class="meta-item"><strong>10</strong><small>Mini-lesse</small></div><div class="meta-item"><strong>100%</strong><small>Afrikaanse inhoud</small></div></div>
-      </div>
-      <div class="channel-visual">
-        <div class="channel-topline"><span class="live-dot"></span> JOU AFRIKAANSE WISKUNDEKANAAL <span>2026 EDITION</span></div>
-        <div class="channel-poster">
-          <div class="poster-grid"></div>
-          <span class="math-prompt prompt-one">f(x) = ax² + bx + c</span>
-          <span class="math-prompt prompt-two">P(A ∪ B)</span>
-          <span class="math-prompt prompt-three">Σ x²</span>
-          <div class="poster-brand"><span>BOMPER</span><strong>BREINKRAG<span class="bolt">ϟ</span></strong></div>
-          <div class="poster-strap">WISKUNDE SONDER STRESS</div>
-          <div class="poster-bottom">NSS • ALGEBRA • EKSAMENVRAE <span>GRAAD 12</span></div>
-        </div>
-        <div class="channel-footer"><img src="kanaal-logo.jpg" alt="BOMPER BREINKRAG-kanaallogo"><div><strong>BOMPER BREINKRAG</strong><small>@BOMPERBREINKRAG</small></div><a href="https://www.youtube.com/@BOMPERBREINKRAG" data-channel-link target="_blank" rel="noopener noreferrer">BESOEK KANAAL ↗</a></div>
-      </div>
-    </div>
-  </section>
-  <section class="section videos-section" id="videos">
-    <div class="container">
-      <div class="section-header"><div><div class="section-kicker">Vanaf ons YouTube-kanaal</div><h2>Leer met <span class="gold-text">BOMPER BREINKRAG.</span></h2><p class="section-lead">Twee Graad 12-algebra-video’s wat op die kanaalskerm verskyn. Klik om die video op YouTube te sien.</p></div><a class="video-more" href="https://www.youtube.com/@BOMPERBREINKRAG/videos" target="_blank" rel="noopener noreferrer">ALLE VIDEO'S ↗</a></div>
-      <div class="video-grid">
-        <article class="video-card"><div class="thumbnail"><img src="video-mei-junie.jpg" alt="Mei/Junie NSS 2026, Graad 12 Wiskunde Algebra video-kleinkiekie" loading="lazy"><span class="video-duration">18:21</span></div><div class="video-card-body"><span class="video-tag">GRAAD 12 • ALGEBRA</span><h3>MEI/JUNIE NSS VRAAG 1 | ALGEBRA | GRAAD 12 WISKUNDE AFRIKAANS</h3><a href="https://www.youtube.com/@BOMPERBREINKRAG/videos" target="_blank" rel="noopener noreferrer">Vind op die kanaal ↗</a></div></article>
-        <article class="video-card"><a class="thumbnail" href="https://www.youtube.com/watch?v=9qyTl0xDuLo" target="_blank" rel="noopener noreferrer" aria-label="Kyk NSS 2023 Vraag 1 op YouTube"><img src="video-nss-2023.jpg" alt="NSS 2023 Vraag 1 Algebra Graad 12 Wiskunde video-kleinkiekie" loading="lazy"><span class="video-duration">19:42</span><span class="play-button">▶</span></a><div class="video-card-body"><span class="video-tag">GRAAD 12 • ALGEBRA</span><h3>NSS 2023 VRAAG 1 | ALGEBRA | GRAAD 12 WISKUNDE AFRIKAANS</h3><a href="https://www.youtube.com/watch?v=9qyTl0xDuLo" target="_blank" rel="noopener noreferrer">Kyk die video ↗</a></div></article>
-      </div>
-    </div>
-  </section>
-  <section class="section section-dark" id="lesse">
-    <div class="container">
-      <div class="section-header"><div><div class="section-kicker">Mini-lesse op die webwerf</div><h2>Vind jou volgende les.</h2><p class="section-lead">Kies ’n graad en probeer ons kort, interaktiewe tekslesse. Hierdie mini-lesse is aparte webwerfoefeninge en nie opgelaaide YouTube-video’s nie.</p></div><span class="counter" id="lessonCount">10 mini-lesse</span></div>
-      <div class="filters"><div class="filter-list" id="gradeFilters" aria-label="Filtreer volgens graad"><button type="button" class="filter active" data-grade="almal" aria-pressed="true">Almal</button><button type="button" class="filter" data-grade="8" aria-pressed="false">Graad 8</button><button type="button" class="filter" data-grade="9" aria-pressed="false">Graad 9</button><button type="button" class="filter" data-grade="10" aria-pressed="false">Graad 10</button><button type="button" class="filter" data-grade="11" aria-pressed="false">Graad 11</button><button type="button" class="filter" data-grade="12" aria-pressed="false">Graad 12</button></div><label class="search-wrap"><span aria-hidden="true">⌕</span><input id="lessonSearch" type="search" placeholder="Soek 'n onderwerp..." aria-label="Soek 'n onderwerp"></label></div>
-      <div class="lesson-grid" id="lessonGrid"></div><p id="lessonEmpty" class="empty" hidden>Geen lesse pas by jou soektog nie. Probeer 'n ander graad of onderwerp.</p>
-    </div>
-  </section>
-  <section class="section" id="oefen"><div class="container practice-grid">
-    <div><div class="section-kicker">Toets jou kennis</div><h2>Moenie net kyk nie. <span class="gold-text">Oefen ook.</span></h2><p class="section-lead">Kyk hoeveel jy onthou met 'n kort vasvra. Kies 'n graad, beantwoord die vrae en sien dadelik jou punt.</p><div class="feature-list"><div class="feature"><span class="feature-icon">✓</span><div><strong>Onmiddellike terugvoer</strong><span>Sien watter antwoord reg is en waarom.</span></div></div><div class="feature"><span class="feature-icon">◈</span><div><strong>Oefen volgens jou graad</strong><span>Van Graad 8 tot Graad 12.</span></div></div><div class="feature"><span class="feature-icon">↻</span><div><strong>Probeer weer</strong><span>Herhaal soveel keer as wat jy wil.</span></div></div></div></div>
-    <div class="quiz-panel" id="quizPanel" aria-live="polite"><div class="quiz-heading"><strong>BREINKRAG / VASVRA</strong><span id="quizStage">Gereed om te begin?</span></div><div id="quizContent"><p class="muted">Kies die graad wat jy wil oefen:</p><label for="quizGrade" class="visually-hidden">Kies graad</label><select id="quizGrade" class="quiz-control"><option value="almal">Alle grade</option><option value="8">Graad 8</option><option value="9">Graad 9</option><option value="10">Graad 10</option><option value="11">Graad 11</option><option value="12">Graad 12</option></select><button class="btn btn-primary" type="button" id="startQuiz">Begin vasvra ↗</button><p class="request-note">Geen registrasie nodig nie. Jou antwoorde word nie gestoor nie.</p></div></div>
-  </div></section>
-  <section class="section section-dark" id="oor"><div class="container about-grid"><div class="about-mark" aria-hidden="true"><div class="about-symbol"><img src="kanaal-logo.jpg" alt=""></div></div><div><div class="section-kicker">Die storie agter BOMPER</div><h2>Elke groot prestasie begin met <span class="gold-text">een som.</span></h2><p class="section-lead">BOMPER BREINKRAG help leerders om wiskunde in Afrikaans beter te verstaan. Ons bou kennis deur duidelike verduidelikings, eksamenvoorbereiding en volop oefening. Die kanaal fokus onder meer op Graad 12-algebra en NSS-eksamenvrae.</p><p class="quote">“Verstaan eers die metode. Die punte volg met oefening.”</p><p class="muted">Saamgestel deur <strong style="color:#fff">Serentino Saaiman</strong>, student in Toegepaste Wiskunde en Operasionele Navorsing aan Stellenbosch Universiteit.</p></div></div></section>
-  <section class="section" id="kontak"><div class="container"><div class="contact-card"><div><div class="section-kicker">Bou saam met ons</div><h2>Watter les wil jy volgende sien?</h2><p class="section-lead" style="margin-bottom:0">Dink aan 'n moeilike onderwerp of 'n vraag waarmee jy sukkel. Skryf jou versoek en kopieer dit om later in 'n YouTube-kommentaar of boodskap te deel.</p></div><div><label for="lessonRequest">Jou lesvoorstel</label><textarea id="lessonRequest" placeholder="Bv. Graad 11: Hoe werk kwadratiese funksies?"></textarea><button id="copyRequest" type="button" class="btn btn-primary" style="margin-top:13px">Kopieer my versoek</button><p class="request-note" id="copyStatus" role="status">Hierdie knoppie kopieer die teks; dit stuur niks outomaties nie.</p></div></div></div></section>
-</main>
-<footer><div class="container footer-layout"><a class="brand" href="#tuis"><img class="brand-photo" src="kanaal-logo.jpg" alt=""><span class="brand-name" style="font-size:14px">BOMPER<span>BREINKRAG</span></span></a><p>© <span id="year">2026</span> BOMPER BREINKRAG • Wiskunde sonder stress.</p><div class="footer-links"><a href="#videos">Video’s</a><a href="#lesse">Lesse</a><a href="#oefen">Oefen</a><a href="https://www.youtube.com/@BOMPERBREINKRAG" data-channel-link target="_blank" rel="noopener noreferrer">YouTube ↗</a></div></div></footer>
-<dialog id="lessonDialog" aria-labelledby="dialogTitle"><div class="dialog-head"><div><span class="grade-tag" id="dialogGrade"></span><h3 id="dialogTitle"></h3></div><button type="button" class="dialog-close" id="dialogClose" aria-label="Maak les toe">×</button></div><p id="dialogDescription" class="muted"></p><div class="formula-box" id="dialogFormula"></div><h4>Uitgewerkte voorbeeld</h4><div class="dialog-example" id="dialogExample"></div><p class="dialog-small">Wenk: skryf die stappe self neer en probeer die voorbeeld weer sonder om te kyk.</p><button class="btn btn-outline" id="dialogQuiz" type="button">Oefen nou ↗</button></dialog>
-<script>
-(() => {
-  'use strict';
-  // YouTube-kanaalnaam uit die kanaalskermgreep wat die gebruiker gedeel het.
-  const CHANNEL_URL = 'https://www.youtube.com/@BOMPERBREINKRAG';
-  document.querySelectorAll('[data-channel-link]').forEach(a => a.href = CHANNEL_URL);
-  const lessons = [
-    {id:1,grade:8,title:'Eenvoudige vergelykings',topic:'Algebra',mark:'x',desc:'Los onbekende waardes stap vir stap op.',formula:'3x + 5 = 20',example:'3x + 5 = 20\n3x = 20 − 5\n3x = 15\nx = 5'},
-    {id:2,grade:8,title:'Wette van eksponente',topic:'Getalle',mark:'xⁿ',desc:'Leer hoe magte werk wanneer ons vermenigvuldig.',formula:'aᵐ × aⁿ = aᵐ⁺ⁿ',example:'2³ × 2² = 2³⁺²\n= 2⁵\n= 32'},
-    {id:3,grade:9,title:'Faktorisering',topic:'Algebra',mark:'(x)',desc:'Breek ’n uitdrukking op in eenvoudiger faktore.',formula:'x² + 5x + 6 = (x + 2)(x + 3)',example:'Soek twee getalle met:\nSom = 5 en produk = 6\n2 + 3 = 5; 2 × 3 = 6\nDus: (x + 2)(x + 3)'},
-    {id:4,grade:9,title:'Reguitlyngrafieke',topic:'Funksies',mark:'↗',desc:'Verstaan gradiënt en waar ’n lyn die y-as sny.',formula:'y = mx + c',example:'Vir y = 2x + 1:\nGradiënt m = 2\ny-afsnit c = 1\nDie lyn sny die y-as by (0; 1).'},
-    {id:5,grade:10,title:'Kwadratiese vergelykings',topic:'Algebra',mark:'x²',desc:'Vind oplossings deur te faktoriseer.',formula:'x² − 5x + 6 = 0',example:'x² − 5x + 6 = 0\n(x − 2)(x − 3) = 0\nDus x = 2 of x = 3'},
-    {id:6,grade:10,title:'Trigonometriese verhoudings',topic:'Trigonometrie',mark:'sin',desc:'Gebruik sinus, cosinus en tangens in reghoekige driehoeke.',formula:'sin θ = teenoorstaande / skuinssy',example:'As die teenoorstaande sy = 3\nen die skuinssy = 5:\nsin θ = 3/5 = 0,6'},
-    {id:7,grade:11,title:'Rekenkundige rye',topic:'Rye',mark:'aₙ',desc:'Bereken enige term van ’n rekenkundige ry.',formula:'Tₙ = a + (n − 1)d',example:'Ry: 4; 7; 10; 13; ...\na = 4; d = 3\nT₁₂ = 4 + (12 − 1)3\n= 37'},
-    {id:8,grade:11,title:'Inverse funksies',topic:'Funksies',mark:'f⁻¹',desc:'Draai die inset en uitset van ’n funksie om.',formula:'As f(x) = 2x + 3, dan f⁻¹(x) = (x − 3)/2',example:'Skryf y = 2x + 3\nRuil x en y om: x = 2y + 3\n2y = x − 3\ny = (x − 3)/2'},
-    {id:9,grade:12,title:'Differensiasie',topic:'Calculus',mark:'dy/dx',desc:'Vind die afgeleide van ’n polinoomfunksie.',formula:'d(xⁿ)/dx = nxⁿ⁻¹',example:'f(x) = 3x³ − 2x\nf′(x) = 3(3x²) − 2\n= 9x² − 2'},
-    {id:10,grade:12,title:'Waarskynlikheid',topic:'Statistiek',mark:'P(A)',desc:'Bereken die kans dat een van twee gebeurtenisse plaasvind.',formula:'P(A ∪ B) = P(A) + P(B) − P(A ∩ B)',example:'P(A) = 0,4; P(B) = 0,3\nP(A ∩ B) = 0,1\nP(A ∪ B) = 0,4 + 0,3 − 0,1\n= 0,6'}
-  ];
-  const questions = [
-    {grade:8,q:'Los op: 3x + 5 = 20. Wat is x?',choices:['3','5','7','15'],correct:1,why:'3x = 15, dus x = 5.'},
-    {grade:8,q:'Wat is 2³ × 2²?',choices:['10','16','32','64'],correct:2,why:'Tel die eksponente: 2⁵ = 32.'},
-    {grade:9,q:'Watter faktore vorm x² + 5x + 6?',choices:['(x + 1)(x + 6)','(x + 2)(x + 3)','(x − 2)(x − 3)','(x + 5)(x + 6)'],correct:1,why:'2 + 3 = 5 en 2 × 3 = 6.'},
-    {grade:9,q:'Wat is die gradiënt van y = 2x + 1?',choices:['1','−2','2','0'],correct:2,why:'Die koëffisiënt van x is die gradiënt: m = 2.'},
-    {grade:10,q:'Wat is die oplossings van x² − 5x + 6 = 0?',choices:['−2 en −3','1 en 6','2 en 3','−1 en −6'],correct:2,why:'(x − 2)(x − 3) = 0 gee 2 en 3.'},
-    {grade:10,q:'Watter verhouding is sin θ?',choices:['Aanliggende / skuinssy','Teenoorstaande / skuinssy','Teenoorstaande / aanliggende','Skuinssy / teenoorstaande'],correct:1,why:'Sinus is teenoorstaande gedeel deur skuinssy.'},
-    {grade:11,q:'In die ry 4; 7; 10; ... wat is T₁₂?',choices:['33','37','40','44'],correct:1,why:'T₁₂ = 4 + 11(3) = 37.'},
-    {grade:11,q:'Wat is die inverse van f(x) = 2x + 3?',choices:['2x − 3','(x + 3)/2','(x − 3)/2','3x + 2'],correct:2,why:'Ruil x en y om en los vir y op.'},
-    {grade:12,q:'Wat is die afgeleide van 3x³ − 2x?',choices:['9x² − 2','3x² − 2','9x³ − 2','x² − 2'],correct:0,why:'Gebruik die magsreël term vir term.'},
-    {grade:12,q:'As P(A)=0,4, P(B)=0,3 en P(A∩B)=0,1, wat is P(A∪B)?',choices:['0,8','0,1','0,5','0,6'],correct:3,why:'0,4 + 0,3 − 0,1 = 0,6.'}
-  ];
-  const $ = id => document.getElementById(id);
-  const menu = $('mainNav'), toggle = $('menuToggle');
-  toggle.addEventListener('click', () => {const opened = menu.classList.toggle('open');toggle.setAttribute('aria-expanded',String(opened));toggle.textContent = opened ? '×' : '☰';});
-  menu.querySelectorAll('a').forEach(a => a.addEventListener('click',()=>{menu.classList.remove('open');toggle.setAttribute('aria-expanded','false');toggle.textContent='☰';}));
-  let grade='almal';
-  function renderLessons(){
-    const term=$('lessonSearch').value.trim().toLocaleLowerCase('af');
-    const result=lessons.filter(l=>(grade==='almal'||String(l.grade)===grade)&&[l.title,l.topic,l.desc,'graad '+l.grade].join(' ').toLocaleLowerCase('af').includes(term));
-    const grid=$('lessonGrid');grid.replaceChildren();
-    for(const l of result){const article=document.createElement('article');article.className='lesson-card';const top=document.createElement('div');top.className='lesson-card-top';const tag=document.createElement('span');tag.className='grade-tag';tag.textContent='GRAAD '+l.grade;const mark=document.createElement('span');mark.className='topic-mark';mark.setAttribute('aria-hidden','true');mark.textContent=l.mark;top.append(tag,mark);const h3=document.createElement('h3');h3.textContent=l.title;const p=document.createElement('p');p.textContent=l.desc;const b=document.createElement('button');b.type='button';b.className='lesson-link';b.textContent='Maak mini-les oop ↗';b.addEventListener('click',()=>openLesson(l));article.append(top,h3,p,b);grid.append(article);}
-    $('lessonCount').textContent=result.length+' mini-les'+(result.length===1?'':'se');$('lessonEmpty').hidden=result.length!==0;
-  }
-  $('gradeFilters').querySelectorAll('button').forEach(b=>b.addEventListener('click',()=>{grade=b.dataset.grade;document.querySelectorAll('.filter').forEach(x=>{x.classList.toggle('active',x===b);x.setAttribute('aria-pressed',String(x===b));});renderLessons();}));
-  $('lessonSearch').addEventListener('input',renderLessons);
-  const dialog=$('lessonDialog');
-  function openLesson(l){$('dialogGrade').textContent='GRAAD '+l.grade+' / '+l.topic.toUpperCase();$('dialogTitle').textContent=l.title;$('dialogDescription').textContent=l.desc;$('dialogFormula').textContent=l.formula;$('dialogExample').textContent=l.example;$('dialogQuiz').onclick=()=>{dialog.close();showStart();$('quizGrade').value=String(l.grade);location.hash='oefen';startQuiz();};dialog.showModal();}
-  $('dialogClose').addEventListener('click',()=>dialog.close());dialog.addEventListener('click',e=>{if(e.target===dialog)dialog.close();});
-  renderLessons();$('year').textContent=String(new Date().getFullYear());
-  let pool=[],index=0,score=0,picked=null,checked=false;
-  function shuffle(arr){return [...arr].sort(()=>Math.random()-.5);}
-  function startQuiz(){const g=$('quizGrade').value;pool=shuffle(questions.filter(q=>g==='almal'||String(q.grade)===g)).slice(0,5);index=0;score=0;renderQuestion();}
-  function renderQuestion(){checked=false;picked=null;const q=pool[index];$('quizStage').textContent='Vraag '+(index+1)+' van '+pool.length;const c=$('quizContent');c.replaceChildren();const progress=document.createElement('div');progress.className='quiz-progress-track';const bar=document.createElement('div');bar.style.width=((index)/pool.length*100)+'%';progress.append(bar);c.append(progress);const title=document.createElement('p');title.className='quiz-question';title.textContent=q.q;c.append(title);const answers=document.createElement('div');const choiceButtons=[];q.choices.forEach((value,i)=>{const b=document.createElement('button');b.type='button';b.className='quiz-choice';b.textContent=String.fromCharCode(65+i)+'.  '+value;b.addEventListener('click',()=>{if(checked)return;picked=i;choiceButtons.forEach((x,j)=>x.classList.toggle('selected',j===i));next.disabled=false;});choiceButtons.push(b);answers.append(b);});c.append(answers);const feedback=document.createElement('p');feedback.className='quiz-feedback';feedback.setAttribute('role','status');c.append(feedback);const actions=document.createElement('div');actions.className='quiz-actions';const point=document.createElement('span');point.className='muted';point.style.fontSize='13px';point.textContent='Punte: '+score;const next=document.createElement('button');next.type='button';next.className='btn btn-primary';next.textContent='Kontroleer antwoord';next.disabled=true;next.addEventListener('click',()=>{if(!checked){checked=true;if(picked===q.correct)score++;choiceButtons.forEach((b,i)=>{b.disabled=true;b.classList.toggle('correct',i===q.correct);b.classList.toggle('wrong',i===picked&&picked!==q.correct);});feedback.textContent=(picked===q.correct?'Korrek! ':'Nie heeltemal nie. ')+q.why;point.textContent='Punte: '+score;next.textContent=index===pool.length-1?'Sien my punt':'Volgende vraag';}else{index++;if(index===pool.length)renderResult();else renderQuestion();}});actions.append(point,next);c.append(actions);}
-  function renderResult(){$('quizStage').textContent='Voltooi!';const c=$('quizContent');c.replaceChildren();const h=document.createElement('h3');h.style.fontSize='38px';h.style.margin='20px 0 8px';h.innerHTML='<span class="gold-text">'+score+' / '+pool.length+'</span>';const p=document.createElement('p');p.className='muted';p.textContent=score===pool.length?'Uitstekend! Jy het alles reggekry.':score>=Math.ceil(pool.length/2)?'Mooi werk! Hersien die vrae wat jou laat twyfel het.':'Goeie poging. Gaan terug na die mini-lesse en probeer weer.';const restart=document.createElement('button');restart.type='button';restart.className='btn btn-primary';restart.textContent='Probeer weer ↻';restart.addEventListener('click',()=>showStart());c.append(h,p,restart);}
-  function showStart(){$('quizStage').textContent='Gereed om te begin?';$('quizContent').innerHTML='<p class="muted">Kies die graad wat jy wil oefen:</p><label for="quizGrade">Graad</label><select id="quizGrade" class="quiz-control"><option value="almal">Alle grade</option><option value="8">Graad 8</option><option value="9">Graad 9</option><option value="10">Graad 10</option><option value="11">Graad 11</option><option value="12">Graad 12</option></select><button class="btn btn-primary" type="button" id="startQuiz">Begin vasvra ↗</button><p class="request-note">Geen registrasie nodig nie. Jou antwoorde word nie gestoor nie.</p>';$('startQuiz').addEventListener('click',startQuiz);}
-  $('startQuiz').addEventListener('click',startQuiz);
-  $('copyRequest').addEventListener('click',async()=>{const value=$('lessonRequest').value.trim();if(!value){$('copyStatus').textContent='Skryf asseblief eers jou lesvoorstel.';$('lessonRequest').focus();return;}try{await navigator.clipboard.writeText('BOMPER BREINKRAG – lesvoorstel: '+value);$('copyStatus').textContent='Gekopieer! Plak dit nou in ’n boodskap of YouTube-kommentaar.';}catch(err){$('lessonRequest').select();$('copyStatus').textContent='Merkteks gereed — gebruik Ctrl+C (of Kopieer op jou foon).';}});
-})();
-</script>
-</body>
-</html>
+<body data-page="index.html">
+<a class="sr-only" href="#main">Slaan navigasie oor</a>
+<div class="announcement"><div class="container"><span>✦ WISKUNDE SONDER STRESS — JOU AFRIKAANSE WISKUNDEPORTAAL</span><span>GRAAD 8–12 • GRATIS MINI-LESSE</span></div></div>
+<header class="site-header"><div class="container nav-inner">
+<a class="brand" href="index.html" aria-label="BOMPER BREINKRAG — tuis"><img src="kanaal-logo.jpg" alt="BOMPER BREINKRAG-kanaallogo"><span class="brand-label">BOMPER <strong>BREINKRAG</strong></span></a>
+<button class="mobile-toggle" type="button" id="mobileToggle" aria-expanded="false" aria-controls="mainNav" aria-label="Maak kieslys oop">☰</button>
+<nav class="nav-links" id="mainNav" aria-label="Hoofnavigasie"><a href="index.html" aria-current="page">Tuis</a><a href="lesse.html">Lesse</a><a href="videos.html">Video’s</a><a href="vraestelle.html">Vraestelle</a><a href="oefen.html">Oefen</a><a href="oor.html">Oor ons</a><a href="kontak.html">Kontak</a><a class="youtube-link" href="https://www.youtube.com/@BOMPERBREINKRAG" target="_blank" rel="noopener noreferrer">YouTube ↗</a></nav>
+</div></header>
+<main id="main">
+<section class="home-hero"><div class="container home-grid">
+<div class="hero-copy"><div class="kicker-row"><span class="dot"></span><span class="eyebrow">AFRIKAANS • GRAAD 8 TOT 12</span></div>
+<h1>WISKUNDE<br><span class="subline">SONDER STRESS.</span></h1>
+<p>Welkom by <strong>BOMPER BREINKRAG</strong>. Verstaan moeilike konsepte met eenvoudige Afrikaanse verduidelikings, eksamenwerk en oefenvrae wat jou aan die dink sit.</p>
+<div class="btn-row"><a href="lesse.html" class="btn btn-orange">Begin leer <span aria-hidden="true">↗</span></a><a href="videos.html" class="btn btn-ghost">Kyk ons video’s ▶</a></div>
+<div class="hero-proof"><div class="proof-item"><b>5</b><span>Grade</span></div><div class="proof-item"><b>10</b><span>Mini-lesse</span></div><div class="proof-item"><b>100%</b><span>Afrikaanse uitleg</span></div></div>
+</div>
+<div class="hero-visual"><div class="math-stamp">MATRIK • ALGEBRA</div><div class="hero-photo"><img src="kanaal-banier.jpg" alt="BOMPER BREINKRAG-kanaalbanier"><div class="visual-panel"><div class="visual-formula">f(x) = ax² + bx + c<span class="visual-note">VERSTAAN • OEFEN • PRESTEER</span></div><img src="kanaal-logo.jpg" alt="BOMPER BREINKRAG-kanaallogo"></div></div><div class="floating-label"><span>ϟ</span> Jou wiskundekrag begin hier.</div></div>
+</div></section>
+<section class="stats-band"><div class="container stats-inner"><div class="stat"><b>01 / LEER</b><span>Kort verduidelikings vir elke graad</span></div><div class="stat"><b>02 / OEFEN</b><span>Vrae met onmiddellike terugvoer</span></div><div class="stat"><b>03 / GROEI</b><span>Bou jou eksamenvertroue</span></div></div></section>
+<section class="section"><div class="container"><div class="section-head-row"><div class="section-heading"><span class="eyebrow dark">KIES JOU PAD</span><h2>Alles vir jou volgende wiskunde-deurbraak.</h2><p>Nie net ’n lang bladsy nie: elke afdeling het nou sy eie bladsy met ’n aparte adres.</p></div></div>
+<div class="cards"><article class="feature-card"><div class="feature-icon">∑</div><h3>Mini-lesse</h3><p>Algebra, funksies, trigonometrie en meer vir Graad 8–12.</p><a href="lesse.html">Verken lesse →</a></article>
+<article class="feature-card"><div class="feature-icon">▶</div><h3>Video’s</h3><p>Kyk ons Afrikaanse Graad 12-algebra-eksamenvideo’s.</p><a href="videos.html">Kyk video’s →</a></article>
+<article class="feature-card"><div class="feature-icon">✓</div><h3>Vasvrae</h3><p>Toets jou kennis en sien dadelik hoe jy gevaar het.</p><a href="oefen.html">Begin oefen →</a></article></div>
+</div></section>
+<section class="section light-section"><div class="container"><div class="section-head-row"><div class="section-heading"><span class="eyebrow dark">DIE EKSAMENHOEK</span><h2>Werk slimmer met vorige vraestelle.</h2><p>Vind amptelike NSS-vraestelle en koppel die vrae aan ons verduidelikings.</p></div><a href="vraestelle.html" class="text-link">NA VRAESTELLE ↗</a></div>
+<div class="cards two"><article class="feature-card"><span class="chip orange">2026 • MEI/JUNIE</span><h3 style="margin-top:17px">Wiskunde: vraestel 1 &amp; 2</h3><p>Navigeer na die Departement van Basiese Onderwys se amptelike vraestelle en memorandums.</p><a href="vraestelle.html">Sien hulpbronne →</a></article><article class="feature-card"><span class="chip orange">2023 • NOVEMBER</span><h3 style="margin-top:17px">Algebra: Vraag 1</h3><p>Hersien eksamenvrae en kyk ’n Afrikaanse video oor algebra.</p><a href="videos.html">Kyk die les →</a></article></div></div></section>
+<section class="section tight"><div class="container"><div class="mid-banner"><div><span class="eyebrow">GEREED VIR JOU VOLGENDE STAP?</span><h2>Oefening maak die verskil.</h2><p>Kies jou graad, beantwoord vrae en bou jou wiskunde-selfvertroue.</p></div><a href="oefen.html" class="btn btn-orange">Begin ’n vasvra →</a></div></div></section></main>
+<footer class="site-footer"><div class="container"><div class="footer-grid">
+<div><a class="brand" href="index.html"><img src="kanaal-logo.jpg" alt=""><span class="brand-label">BOMPER <strong>BREINKRAG</strong></span></a><p>Jou Afrikaanse plek vir wiskunde, mini-lesse, NSS-eksamenvoorbereiding en vasvrae.</p></div>
+<div><h3>Verken die webwerf</h3><div class="footer-links"><a href="lesse.html">Mini-lesse</a><a href="videos.html">Wiskunde-video’s</a><a href="vraestelle.html">NSS-vraestelle</a><a href="oefen.html">Interaktiewe vasvrae</a></div></div>
+<div><h3>Meer oor ons</h3><div class="footer-links"><a href="oor.html">Ons storie</a><a href="kontak.html">Stuur ’n lesvoorstel</a><a href="https://www.youtube.com/@BOMPERBREINKRAG" target="_blank" rel="noopener noreferrer">Ons YouTube-kanaal ↗</a><a href="https://www.education.gov.za/Curriculum/NationalSeniorCertificate%28NSC%29Examinations/NSCPastExaminationpapers.aspx" target="_blank" rel="noopener noreferrer">Amptelike NSS-vraestelle ↗</a></div></div>
+</div><div class="footer-bottom"><span>© <span id="siteYear">2026</span> BOMPER BREINKRAG • Wiskunde sonder stress.</span><span>Gemaak vir Afrikaanse leerders • Geen registrasie nodig nie</span></div></div></footer></body></html>
